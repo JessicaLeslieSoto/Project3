@@ -25,8 +25,9 @@
  			<br>
  
  			<p style="text-align: center;">
-			 <object data="https://www.youtube.com/embed/Bimd2nZirT4?" width="640" height="360"></object> <!--width="640" height="360" src="https://www.youtube.com/embed/Bimd2nZirT4?" frameborder="0" allowfullscreen></iframe>-->
+			  <object data="https://www.youtube.com/embed/Bimd2nZirT4?" width="640" height="360"></object> 
 			</p>
+
 			<br><br> 
 			
  			 <img src="http://theindiesound.com/wp-content/uploads/2015/12/tumblr_static_filename_640_v2.jpg" height="300" width="414" alt="The boys" class="picright">
@@ -44,7 +45,28 @@
  			 <img src="https://s3-eu-central-1.amazonaws.com/centaur-wp/creativereview/prod/content/uploads/2016/02/IFIBELIEVEYOU_WEB.jpg" height="300" width="450" alt="church" class="picleft">
 
  			 <br><br><br><br><br><br>
-
+		
+  		
+  		
+    		<h3>Where the 1975 resides origanally</h3>
+    		<div id="map"></div>
+    		<script>
+      			function initMap() {
+        		var uluru = {lat: 51.5074, lng: 0.1278};
+        		var map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 4,
+          		center: uluru
+        		});
+        		var marker = new google.maps.Marker({
+          		position: uluru,
+          		animation: google.maps.Animation.BOUNCE,
+          		map: map
+        		});
+      		}
+    		</script>
+    		<script async defer
+    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxbYg-qFFITSaQwnAM-Favi2oLpbuBS4I&callback=initMap">
+    		</script>
 
 			<footer>
 				<p>Created by Jessica L. Soto</p>
@@ -54,8 +76,6 @@
 					</p>
 				</address>
 			</footer>
-
-
 	</body>
 </html>
 

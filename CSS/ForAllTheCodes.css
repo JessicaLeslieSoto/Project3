@@ -95,6 +95,11 @@ li a:hover {
     padding-left: 30%;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+    }
+
 footer {
     position: relative;
     height: 1.25em;
